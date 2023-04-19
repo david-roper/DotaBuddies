@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+scikit-learn = "*"
+torch = {version = "*", index = "https://download.pytorch.org/whl/cu118"}
+torchvision = {version = "*", index = "https://download.pytorch.org/whl/cu118"}
+ipykernel = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
