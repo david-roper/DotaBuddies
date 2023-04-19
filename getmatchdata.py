@@ -5,7 +5,7 @@ import csv
 import time
 
 last_match_id = ''
-with open('newmatchdata.csv', 'a') as f:
+with open('newmatchdata.csv', 'w') as f:
     write = csv.writer(f)
     write.writerow(['radiant_win','rhero1','rhero2','rhero3','rhero4','rhero5','dhero1','dhero2','dhero3','dhero4','dhero5'])
 for j in range(8):
